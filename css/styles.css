@@ -44,16 +44,22 @@ img.grayscale {
 
 .header .btn-lg {
    font-size:28px;
-   border-color:#eeeeee;
    padding:15px;
-   background-color:transparent;
-   color:#ffffff;
 }
 
-.header .btn-lg:hover {
-   background-color:#eeeeee;
-   color:#777777;
+
+.btn-oundle {
+   border-color: #970830;
+   background-color:transparent;
+   color:#970830;
 }
+
+.btn-oundle:hover {
+   background-color:#970830;
+   color: white;
+
+}
+
 
 .navbar a {
   color:#fff;
