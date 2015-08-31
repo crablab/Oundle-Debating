@@ -14,7 +14,7 @@ body {
 .row { margin: 0; padding: 0 }
 
 h1 {
-  font-size:45px; 
+  font-size:45px;
 }
 
 img.grayscale {
@@ -64,12 +64,13 @@ img.grayscale {
 }
 
 .navbar-bold {
-  background-color:#11cc45;
+  background-color:#053161;
   font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+  border-bottom: 3px solid #970830;
 }
 
 .navbar-bold li a:hover, .navbar-bold li.active {
-  background-color:#22dd56;
+  background-color:#970830;
 }
 
 .vert {
@@ -79,23 +80,27 @@ img.grayscale {
 }
 
 .header h1 {
-  font-size:110px;
+  font-size:100px;
   -webkit-text-stroke: 1px rgba(0,0,0,0.1);
   color:#431a6d;
   color:#fff;
   margin-left:-5px;
   margin-bottom:5px;
   font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
-}
+  text-decoration: underline;
+  text-decoration-color: #970830;
+  }
 
 .header .lead {
   color:#eeeeee;
-  font-size:25px;
+  font-size:50px;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .header {
   height: 80%;
-  background: #11cc45 url('http://www.bootply.com/assets/example/pt_squares_lg.png') repeat center center fixed;
+  background: #053161 url('http://oundle.info/file/2014/10/20140902_Oundle_School_Buildings_069.jpg') center;
 }
 
 .blurb {
@@ -108,7 +113,7 @@ img.grayscale {
 }
 
 .bright {
-  background: #7fbbda url('http://www.bootply.com/assets/example/bg_suburb.jpg') no-repeat center center fixed; 
+  background: #7fbbda url('http://www.bootply.com/assets/example/bg_suburb.jp') no-repeat center center fixed;
   color:#fff;
 }
 
@@ -130,7 +135,7 @@ img.grayscale {
   width: 140px;
   height: 140px;
   line-height: 136px;
-  vertical-align: middle; 
+  vertical-align: middle;
   text-align: center;
 }
 
@@ -143,7 +148,7 @@ img.grayscale {
   padding-top:7%;
   height: 100%;
   width: 100%;
-  background: url('http://www.bootply.com/assets/example/bg_suburb.jpg') no-repeat center center fixed; 
+  background: url('http://www.bootply.com/assets/example/bg_suburb.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
